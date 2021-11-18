@@ -1,0 +1,22 @@
+{
+  "name": "cadastro-pacientes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "sls-offline": "serverless offline start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "faker": "^5.5.3",
+    "serverless-dynamodb-local": "^0.2.40",
+    "serverless-offline": "^8.2.0"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1029.0",
+    "uuid": "^8.3.2"
+  }
+}
